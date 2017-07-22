@@ -26,6 +26,7 @@ if [[ ! -e ".gitmodules" ]]; then
 fi
 
 git config --file=.gitmodules submodule.monocle-icons.url "$URL"
+git config --file=.gitmodules submodule.monocle-icons.branch larger-outlined
 git submodule sync
 git submodule update --init --remote
 

@@ -6,5 +6,6 @@ or:
 
 1. `cd` to your *Monocle* directory
 2. `git config --file=.gitmodules submodule.monocle-icons.url https://github.com/Imaginum/monocle-icons.git`
-3. `git submodule sync`
-4. `git submodule update --init --remote`
+3. `git config --file=.gitmodules submodule.monocle-icons.branch larger-outlined`
+4. `git submodule sync`
+5. `git submodule update --init --remote`
